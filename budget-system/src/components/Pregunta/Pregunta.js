@@ -16,7 +16,7 @@ export default function Pregunta(){
 
         if(cantidad < 1 || isNaN(cantidad)){
             notification['error']({
-                message: "La cantidad ingresada no es correcta"
+                message: "El Presupuesto es incorrecto"
             })
         }else{
             notification['success']({
